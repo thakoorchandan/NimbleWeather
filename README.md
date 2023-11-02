@@ -64,7 +64,7 @@ The application holds conversations in a Supabase database. You can create a fre
 
 makr.AI needs a Supabase URL and Anon Key to connect to your database. You can find these in your Supabase project settings.
 
-You must create 3 tables in your supabase project:
+You must create a table named chatstream in your supabase project:
 
 ![NimbeWeather](https://github.com/thakoorchandan/NimbleWeather/blob/main/src/public/SupabaseSchema.png?raw=true)
 
