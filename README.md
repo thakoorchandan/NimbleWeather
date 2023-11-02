@@ -25,14 +25,22 @@ Meet Nimble.AI Weather that provides you with latest weather forecasts, AQI, Hum
 -   `Login Page`
     <img src="https://github.com/thakoorchandan/NimbleWeather/blob/main/src/public/login_page.png?raw=true" alt="Login" style="max-width:400px">
 
+
+
 -   `What is the weather here ?`
     <img src="https://github.com/thakoorchandan/NimbleWeather/blob/main/src/public/CurrentLocation.png?raw=true" alt="Current Location" style="max-width:400px">
+
+
 
 -   `What is the AQI (Air Quality Information) of Hyderabad ?`
     <img src="https://github.com/thakoorchandan/NimbleWeather/blob/main/src/public/AQI.png?raw=true" alt="Hyderabad AQI" style="max-width:400px">
 
+
+
 -   `What is the forecast for Hyderabad ?`
     <img src="https://github.com/thakoorchandan/NimbleWeather/blob/main/src/public/Forecast.png?raw=true" alt="Hyderabad Forecast" style="max-width:400px">
+
+
 
 -   `What is the weather in Raipur ?`
     <img src="https://github.com/thakoorchandan/NimbleWeather/blob/main/src/public/Weather.png?raw=true" alt="Raipur weather" style="max-width:400px">
