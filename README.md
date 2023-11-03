@@ -23,19 +23,27 @@ Meet Nimble.AI Weather that provides you with latest weather forecasts, AQI, Hum
 #### Examples
 
 -   `Login Page`
-    <img src="https://github.com/thakoorchandan/NimbleWeather/blob/main/src/public/login_page.png?raw=true" alt="Login" style="max-width:400px">
+    <img src="https://github.com/thakoorchandan/NimbleWeather/blob/main/src/public/login_page.png?raw=true" alt="Login" style="max-width:300px">
+
+
 
 -   `What is the weather here ?`
-    <img src="https://github.com/thakoorchandan/NimbleWeather/blob/main/src/public/CurrentLocation.png?raw=true" alt="Current Location" style="max-width:400px">
+    <img src="https://github.com/thakoorchandan/NimbleWeather/blob/main/src/public/CurrentLocation.png?raw=true" alt="Current Location" style="max-width:300px">
+
+
 
 -   `What is the AQI (Air Quality Information) of Hyderabad ?`
-    <img src="https://github.com/thakoorchandan/NimbleWeather/blob/main/src/public/AQI.png?raw=true" alt="Hyderabad AQI" style="max-width:400px">
+    <img src="https://github.com/thakoorchandan/NimbleWeather/blob/main/src/public/AQI.png?raw=true" alt="Hyderabad AQI" style="max-width:300px">
+
+
 
 -   `What is the forecast for Hyderabad ?`
-    <img src="https://github.com/thakoorchandan/NimbleWeather/blob/main/src/public/Forecast.png?raw=true" alt="Hyderabad Forecast" style="max-width:400px">
+    <img src="https://github.com/thakoorchandan/NimbleWeather/blob/main/src/public/Forecast.png?raw=true" alt="Hyderabad Forecast" style="max-width:300px">
+
+
 
 -   `What is the weather in Raipur ?`
-    <img src="https://github.com/thakoorchandan/NimbleWeather/blob/main/src/public/Weather.png?raw=true" alt="Raipur weather" style="max-width:400px">
+    <img src="https://github.com/thakoorchandan/NimbleWeather/blob/main/src/public/Weather.png?raw=true" alt="Raipur weather" style="max-width:300px">
 
 
 ### How It Works
@@ -64,7 +72,7 @@ The application holds conversations in a Supabase database. You can create a fre
 
 makr.AI needs a Supabase URL and Anon Key to connect to your database. You can find these in your Supabase project settings.
 
-You must create 3 tables in your supabase project:
+You must create a table named chatstream in your supabase project:
 
 ![NimbeWeather](https://github.com/thakoorchandan/NimbleWeather/blob/main/src/public/SupabaseSchema.png?raw=true)
 
