@@ -12,7 +12,7 @@ export default function Home() {
     await supabase.auth.signInWithOAuth({
       provider: "github",
       options: {
-        redirectTo: "https://nimble-weather.vercel.app/chat", // this is the url of the deployed app
+        redirectTo: "http://localhost:5173/chat", // this is the url of the deployed app
       },
     });
   };
@@ -21,7 +21,7 @@ export default function Home() {
     await supabase.auth.signInWithOAuth({
       provider: "google",
       options: {
-        redirectTo: "https://nimble-weather.vercel.app/chat", // this is the url of the deployed app
+        redirectTo: "http://localhost:5173/chat", // this is the url of the deployed app
       },
     });
   };
