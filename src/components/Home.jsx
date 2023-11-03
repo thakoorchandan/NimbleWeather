@@ -89,11 +89,11 @@ export default function Home() {
         {/* Content */}
         <div className="absolute inset-0 z-20 flex items-center justify-center px-8">
           <div className="mb-24">
-            <img
+          <img
               className="max-w-[200px]"
               width={296}
               height={77}
-              src="src/images/nimble-logo.png"
+              src="https://github.com/thakoorchandan/NimbleWeather/blob/main/src/images/nimble-logo.png?raw=true"
               alt="nimble-logo"
             />
             <div className="mt-4">
