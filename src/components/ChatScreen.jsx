@@ -14,8 +14,6 @@ import { useDispatch, useSelector } from "react-redux";
 import { fetchUser, logoutUser } from "../store/userSlice";
 import { setError, setLocation } from "../store/geoLocationSlice";
 
-import toast from "react-hot-toast";
-
 // Components
 import ChatInput from "./ChatInput";
 import ChatStream from "./ChatStream";
@@ -34,7 +32,6 @@ export default function ChatScreen() {
       if (res.error) {
         navigate("/");
       } // Show success toast if logged in successfully
-      else toast.success("Logged in successfully! 🎉");
     });
   }, []);
 
@@ -48,7 +45,6 @@ export default function ChatScreen() {
               longitude: position.coords.longitude,
             })
           );
-          toast.success("Location loaded! 🌏");
         },
         (error) => {
           dispatch(setError(`Error: ${error.message}`));
