@@ -80,18 +80,18 @@ export default function ChatScreen() {
                       xmlns="http://www.w3.org/2000/svg"
                       fill="none"
                       viewBox="0 0 24 24"
-                      stroke-width="1.5"
+                      strokeWidth="1.5"
                       stroke="currentColor"
-                      class="w-6 h-6"
+                      className="w-6 h-6"
                     >
                       <path
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
                         d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z"
                       />
                       <path
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
                         d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z"
                       />
                     </svg>
@@ -129,7 +129,7 @@ export default function ChatScreen() {
           <div className="flex-1 text-center mt-10 text-lg font-semibold">
             Please wait while we log you in...
             <div className="flex flex-1 justify-center">
-              <div class="rounded-md mt-10 h-12 w-12 border-4 border-t-4 border-blue-500 animate-spin absolute"></div>
+              <div className="rounded-md mt-10 h-12 w-12 border-4 border-t-4 border-blue-500 animate-spin absolute"></div>
             </div>
           </div>
         </div>
