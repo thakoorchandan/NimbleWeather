@@ -12,7 +12,7 @@ export default function Home() {
     await supabase.auth.signInWithOAuth({
       provider: "github",
       options: {
-        redirectTo: "http://localhost:5173/chat", // this is the url of the deployed app
+        redirectTo: "https://askweather.onrender.com/chat", 
       },
     });
   };
@@ -21,7 +21,7 @@ export default function Home() {
     await supabase.auth.signInWithOAuth({
       provider: "google",
       options: {
-        redirectTo: "http://localhost:5173/chat", // this is the url of the deployed app
+        redirectTo: "https://askweather.onrender.com/chat",
       },
     });
   };
