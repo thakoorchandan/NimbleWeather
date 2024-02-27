@@ -55,7 +55,6 @@ Meet Nimble.AI Weather that provides you with latest weather forecasts, AQI, Hum
 
 ### Important Notes
 
--   The project is built using React and is hosted on [Netlify](https://jazzy-pavlova-932105.netlify.app/).
 -   The project is using [Tailwind CSS](https://tailwindcss.com/) for styling.
 -   The project is using the [OpenWeather API](https://openweathermap.org/api) to retrieve weather data.
 -   The project is using the [NBox API](https://nbox.ai/) to generate responses to user requests.
