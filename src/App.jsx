@@ -1,34 +1,21 @@
-/*
-* App Component
-*/
-
-import { createBrowserRouter, RouterProvider } from "react-router-dom";
-
-// Layouts
+import React from "react";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Main from "./layout/Main";
-
-// Components
 import Home from "./components/Home";
 import ChatScreen from "./components/ChatScreen";
 
-// Router
-const router = createBrowserRouter([
-	{
-		path: "/",
-		element: <Main />,
-		children: [
-			{
-				index: true,
-				element: <Home />,
-			},
-			{
-				path: "chat",
-				element: <ChatScreen />,
-			},
-		],
-	},
-]);
-
 export default function App() {
-	return <RouterProvider router={router} />;
+  return (
+    <Router>
+      <Routes>
+        <Route
+          path="/"
+          element={<Main />}
+        >
+          <Route index element={<Home />} />
+          <Route path="chat" element={<ChatScreen />} />
+        </Route>
+      </Routes>
+    </Router>
+  );
 }
